@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    font-family: "Satisfy", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+:root {
+    --container-color: #111;
+    --second-color: #b15b5b;
+    --text-color: rgb(94, 107, 231);
+    --bg-cilor: #fff;
+}
+
+::selection{
+    color: var(--bg-cilor);
+    background: var(--second-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+.contanainer {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+}
+
+.logo span{
+    color: var(--second-color);
+
+}
+
+.home-text{
+    color:var(--bg-color);
+    text-align: center;
+
+}
+
+.home-title {
+    font-size: 3.5rem;
+}
+
+.home-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+
+.filter-item {
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.active-filter {
+    background: var(--second-color);
+    color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px
+}
+
+.home {
+    width: 100%;
+    min-height: 440px;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    padding: 8px 14;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--second-color);
+    color: var(--bg-color);
+}
+
+.login:hover {
+    background: hsl(140, 61%, 54%);
+    transition: 0.3s;
+}
+
+https://www.youtube.com/watch?v=gZHjMVE_e10
